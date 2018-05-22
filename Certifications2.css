@@ -1,0 +1,262 @@
+
+body {
+   vertical-align: middle;
+   margin: auto;
+   background: url(Website-Background.png) no-repeat center center fixed;
+   background-size: contain;
+   background-size: 162%;
+   font-family: 'Lora', serif;
+   width: 800px;
+   height: 770px;/*Check 1: if the width must be specified*/
+   display: grid;
+   grid-template-columns: 150px 300px 300px 200px;
+   grid-template-rows: 50px 150px 100px 70px 1fr;
+   padding-top: 25px;
+   position: relative;
+}
+
+header {
+  grid-row: 1 / 2;
+  grid-column: 1 / 6;
+  display: inline-flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+header li {
+  display: inline-block;
+  margin: 10px;
+  font-size: 20px;
+  color: white;
+  transition: all .2s ease-in-out;
+  padding: 7px;
+  margin-bottom: -10px;
+  margin-top: -10px;
+  margin-left: -5px;
+}
+
+header li:hover {
+  color: black;
+  background-color: white;
+  padding: 7px;
+  font-size: 20px;
+  cursor:pointer;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.paul-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 10px 7px 5px Grey;
+}
+
+.paul-image {
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.paul {
+  display: grid;
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+  justify-items: center;
+  align-self:start;
+  margin-top: -10px;
+}
+
+.paul h3 {
+  margin-top: -10px;
+}
+
+/*START Certification timeline*/
+.certifications {
+  display: grid;
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  margin-bottom: 0px;
+  margin-left: -90px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.certifications h3::first-letter{
+  font-size:250%;
+  color: hsl(200,100%, 25%);
+}
+
+.container {
+  grid-column: 2 / 4;
+  grid-row: 5 / 6;
+  margin-left: -75px;
+}
+
+/* Container style*/
+.container ul {
+  list-style: none;
+  position: relative;
+  padding-top: 0px;
+}
+
+/* Timeline axis */
+.container ul::before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #0077B5;
+  z-index: 2;
+}
+
+.container ul li {
+  padding: 10px 0px;
+}
+
+/*Container background*/
+.container ul li div {
+border-radius: 10px;
+width: 500px;
+background-color: rgba(255,255,255, 0.8);
+}
+
+.container ul li div h4 {
+  padding-top: 10px;
+  margin-bottom: -10px;
+  margin-left: 5px;
+  font-size: 17px;
+  left: 40px;
+  position: relative;
+}
+.container ul li div p {
+  padding-bottom: 10px;
+  margin-left: 5px;
+  font-style: italic;
+  margin-top: 22px;
+}
+
+/*Year timelines*/
+.container ul li span {
+  color: white;
+  position: absolute;
+  left: -20px;
+  font-size: 15px;
+  background-color: #0077B5;
+  padding: 5px 5px;
+  border-radius: 4px;
+  z-index: 2;
+}
+
+/*Images in Timeline*/
+.container img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+/*START Recommendation Letters timeline*/
+.recommendation {
+  display: grid;
+  grid-column: 2 / 4;
+  grid-row: 5 / 6;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: -90px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position:relative;
+  top: 520px;
+  ma
+}
+
+.recommendation h3::first-letter{
+  font-size:250%;
+  color: hsl(200,100%, 25%);
+}
+
+.container-recommendation {
+  grid-column: 2 / 4;
+  grid-row: 6 / 7;
+  margin-left: -75px;
+  margin-top: 60px;
+}
+
+/* Container style*/
+.container-recommendation ul {
+  list-style: none;
+  position: relative;
+  padding-top: 0px;
+}
+
+/* Timeline axis */
+.container-recommendation ul::before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #0077B5;
+  z-index: 2;
+}
+
+.container-recommendation ul li {
+  padding: 10px 0px;
+}
+
+/*Container background*/
+.container-recommendation ul li div {
+border-radius: 10px;
+width: 500px;
+background-color: rgba(255,255,255, 0.8);
+}
+
+.container-recommendation ul li div h4 {
+  padding-top: 10px;
+  margin-bottom: -10px;
+  margin-left: 5px;
+  font-size: 17px;
+  left: 40px;
+  position: relative;
+}
+
+.container-recommendation ul li div p {
+  padding-bottom: 10px;
+  margin-left: 5px;
+  font-style: italic;
+  margin-top: 22px;
+}
+
+/*Year timelines*/
+.container-recommendation ul li span {
+  color: white;
+  position: absolute;
+  left: -20px;
+  font-size: 15px;
+  background-color: #0077B5;
+  padding: 5px 5px;
+  border-radius: 4px;
+  z-index: 2;
+}
+
+/*Images in Timeline*/
+.container-recommendation img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 4px;
+  margin-top: 4px;
+}

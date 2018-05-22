@@ -1,0 +1,214 @@
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+}
+
+body {
+  width: 800px;
+  height: 770px;/*Check 1: if the width must be specified*/
+  display: grid;
+  grid-template-columns: 200px 10fr 1fr;
+  grid-template-rows: 50px 250px 200 270px;
+  padding-top: 25px;
+  background: url(Website-Background.png) no-repeat center center fixed;
+  background-size: contain;
+  background-size: 162%;
+  font-family: 'Lora', serif;
+}
+
+header {
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+  display: inline-flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+header li {
+display: inline-block;
+margin: 10px;
+font-size: 20px;
+color: white;
+transition: all .2s ease-in-out;
+padding: 7px;
+margin-bottom: -10px;
+margin-top: -10px;
+margin-left: -5px;
+}
+
+header li:hover {
+
+  color: black;
+  background-color: white;
+  padding: 7px;
+  font-size: 20px;
+  cursor:pointer;
+}
+
+
+main {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.main {
+  display: inline-block;
+}
+
+.main a {
+  display: inline-block;
+  margin: 0;
+  padding: 0px;
+  margin-right: 10px;
+  list-style: none;
+  color: #0077B5;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+main ul {
+  margin-left: -40px;
+}
+
+.image-background {
+  width: 220px;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+}
+
+  main h1{
+    font-size: 50px;
+  }
+
+  main h2 {
+    margin-top: -20px;
+  }
+
+.image {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  height: inherit;
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.icon-bar {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+}
+
+.icon-bar-ul li {
+  display: inline-block;
+  margin: 10px;
+  padding-right: 20px;
+}
+
+.icon-bar-ul a{
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  font-size: 30px
+}
+
+.about-me {
+  grid-row: 3 / 4;
+  grid-column: 1 / 4;
+  border-bottom: 2px solid white;
+}
+
+
+.skills {
+  grid-row: 4 / 5;
+  display: grid;
+  width: inherit;
+  grid-template-columns: 1fr 1fr;
+
+
+}
+
+.hard {
+  grid-column: 1 / 2;
+}
+
+.soft {
+  grid-column: 2 / 3;
+}
+
+/* Start: Skill bars */
+
+
+.container {
+    padding-right: 20px;
+    width: 90%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    border-radius: 10px;
+    height: 15px;
+}
+
+.skills-percentage {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: inherit;; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+    height: inherit;
+    font-size: 14px;
+}
+
+.microsoft-office {
+  width: 80%;
+  background-color: #0077B5;
+  border-radius: inherit;
+}
+
+.crm {
+  width: 70%;
+  background-color: #0077B5;
+  border-radius: inherit;
+}
+
+.sap {
+  width: 60%;
+  background-color: #0077B5;
+  border-radius: inherit;
+}
+
+.soft li {
+      display: inline-block;
+      margin: 0;
+      padding: 0px;
+      margin-right: 10px;
+      list-style: none;
+      color: #0077B5;
+      text-decoration: none;
+      font-size: 20px;
+      padding-left: 7px;
+    }
+
+.soft ul {
+      margin-top: -6.5px;
+      margin-left: -40px;
+    }
+
+    header a {
+      text-decoration: none;
+      color: inherit;
+    }
+/* End: Skill bars */
+
+
+/* Work experiece section
+.work-experience {
+  grid-row: 5 / 6;
+  grid-column: 1 / 4;
+}
+*/

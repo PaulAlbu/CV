@@ -13,7 +13,7 @@ body {
   grid-template-rows: 50px 250px 200 270px;
   padding-top: 25px;
   background: url(Website-Background.png) no-repeat center center fixed;
-  background-size: contain;
+  background-size: cover;
   background-size: 162%;
   font-family: 'Lora', serif;
 }

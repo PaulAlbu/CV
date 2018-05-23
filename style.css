@@ -9,6 +9,36 @@ body {
     margin: auto;
 }
 
+/*START Fix elements*/
+.fixed-elements{
+position: fixed;
+z-index: 1;
+}
+/*START Fix elements*/
+
+
+/*START Darken brackground*/
+.darken {
+  background: no-repeat center center fixed;
+  background-size: 112% 134%;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.3 )
+    ),
+    url(body-background23.jpg);
+}
+
+/*.darken-elements {
+  background-image:   linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+      );
+}*/
+
+/*END Darken brackground*/
 body {
   width: 800px;
   height: 770px;/*Check 1: if the width must be specified*/
@@ -16,8 +46,6 @@ body {
   grid-template-columns: 200px 10fr 1fr;
   grid-template-rows: 50px 250px 200 270px;
   padding-top: 25px;
-  background: url(Website-Background.png) no-repeat center center fixed;
-  background-size: cover;
 
   font-family: 'Lora', serif;
 }
@@ -55,7 +83,6 @@ header li:hover {
 main {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
-  border-top: solid 2px white;
   border-bottom: solid 2px white;
   margin-left: 20px;
   padding: 10px;
@@ -82,7 +109,6 @@ main ul {
 
 .image-background {
   width: 220px;
-  border-top: solid 2px white;
   border-bottom: solid 2px white;
 }
 
@@ -107,7 +133,6 @@ main ul {
 .icon-bar {
   grid-row: 2 / 3;
   grid-column: 3 / 4;
-  border-top: solid 2px white;
   border-bottom: solid 2px white;
 }
 
@@ -207,6 +232,12 @@ main ul {
       text-decoration: none;
       color: inherit;
     }
+
+.about-me p {
+  text-align: justify;
+}
+
+
 /* End: Skill bars */
 
 

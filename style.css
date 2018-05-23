@@ -25,7 +25,7 @@ z-index: 1;
     linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.3 )
     ),
     url(body-background23.jpg);

@@ -9,14 +9,6 @@ body {
     margin: auto;
 }
 
-/*START Fix elements*/
-.fixed-elements{
-position: fixed;
-z-index: 1;
-}
-/*START Fix elements*/
-
-
 /*START Darken brackground*/
 .darken {
   background: no-repeat center center fixed;

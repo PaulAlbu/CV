@@ -3,8 +3,16 @@
 }
 
 body {
-    background: url(body-background10.jpg) no-repeat center center fixed;
+    background: no-repeat center center fixed;
     background-size: cover;
+    background-image:
+      linear-gradient(
+        rgba(0, 0, 0, 0.0),
+        rgba(0, 0, 0, 0.0),
+        rgba(0, 0, 0, 0.0),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(Website-Background.png);
     font-family: 'Lora', serif;
 }
 

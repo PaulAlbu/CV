@@ -2,9 +2,8 @@
 body {
    vertical-align: middle;
    margin: auto;
-   background: url(body-background23.jpg) no-repeat center center fixed;
-   background-size: contain;
-   background-size: 110%;
+   background: url(Website-Background.png) no-repeat center center fixed;
+   background-size: cover;
    font-family: 'Lora', serif;
    width: 800px;
    height: 770px;/*Check 1: if the width must be specified*/

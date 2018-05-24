@@ -12,23 +12,25 @@ body {
 /*START Darken brackground*/
 .darken {
   background: no-repeat center center fixed;
-  background-size: 112% 134%;
+  background-size: cover;
   background-image:
     linear-gradient(
+      rgba(255, 255, 255, 0.3),
       rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.3 )
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.4)
     ),
-    url(body-background23.jpg);
+    url(body-background38.jpg);
+    z-index: -2;
 }
 
-/*.darken-elements {
+.darken-elements {
   background-image:   linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(192,192,192,0.6)
       );
-}*/
+}
 
 /*END Darken brackground*/
 body {
@@ -220,15 +222,31 @@ main ul {
       margin-left: -40px;
     }
 
-    header a {
-      text-decoration: none;
-      color: inherit;
+header a {
+  text-decoration: none;
+  color: inherit;
     }
 
 .about-me p {
   text-align: justify;
 }
 
+.blank-canvas {
+display: grid;
+z-index: -1;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+top: 90px;
+position: absolute;
+background-color: white;
+border-radius: 3px;
+width: 830px;
+height: 850px;
+box-shadow: 10px 7px 4px black;
+
+}
 
 /* End: Skill bars */
 

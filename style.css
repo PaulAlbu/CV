@@ -15,10 +15,10 @@ body {
   background-size: cover;
   background-image:
     linear-gradient(
-      rgba(255, 255, 255, 0.3),
       rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
     ),
     url(body-background38.jpg);
     z-index: -2;

@@ -9,10 +9,10 @@
       linear-gradient(
         rgba(0, 0, 0, 0.3),
         rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.0)
       ),
-      url(body-background58.jpg);
+      url(body-background77.jpg);
 
       position: fixed;
        z-index: -2;
@@ -133,9 +133,11 @@ h4 {
   padding-top: 10px;
   padding-left: 30px;
   padding-bottom: 12px;
-
 }
 
+.padding-h4 {
+  padding-bottom: 50px;
+}
 
 /* START: HEADER, BANNER, ABOUT ME section */
 body {
@@ -146,7 +148,7 @@ body {
 
 
 body {
-  width: 800px;
+  width: 1200px;
   height: 770px;/*Check 1: if the width must be specified*/
   display: grid;
   grid-template-columns: 200px 10fr 1fr;
@@ -199,7 +201,6 @@ header li:hover {
 main {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
-  border-top: solid 2px white;
   border-bottom: solid 2px white;
   margin-left: 20px;
   padding: 10px;
@@ -226,7 +227,6 @@ main ul {
 
 .image-background {
   width: 220px;
-  border-top: solid 2px white;
   border-bottom: solid 2px white;
 }
 
@@ -251,7 +251,6 @@ main ul {
 .icon-bar {
   grid-row: 2 / 3;
   grid-column: 3 / 4;
-  border-top: solid 2px white;
   border-bottom: solid 2px white;
 }
 
@@ -287,5 +286,5 @@ header a {
 }
 
 .about-me p {
-
+text-align: justify;
 }

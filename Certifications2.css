@@ -193,8 +193,8 @@ color: white;
   margin-left: -90px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-top: 560px;
-  margin-bottom: -90px;
+  position: relative;
+  top: 520px;
 }
 
 .recommendation h3::first-letter{

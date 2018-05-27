@@ -42,7 +42,7 @@ header li {
   margin: 10px;
   font-size: 20px;
   color: white;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   padding: 7px;
   margin-bottom: -10px;
   margin-top: -10px;
@@ -138,6 +138,12 @@ header a {
 border-radius: 10px;
 width: 500px;
 background-color: rgba(255,255,255, 0.8);
+transition: all .2s ease-in-out;
+}
+
+.container ul li div:hover{
+background-color: #288CC8;
+color: white;
 }
 
 .container ul li div h4 {
@@ -231,6 +237,12 @@ background-color: rgba(255,255,255, 0.8);
 border-radius: 10px;
 width: 500px;
 background-color: rgba(255,255,255, 0.8);
+transition: all .2s ease-in-out;
+}
+
+.container-recommendation ul li div:hover {
+background-color: #288CC8;
+color: white;
 }
 
 .container-recommendation ul li div h4 {
@@ -271,7 +283,22 @@ background-color: rgba(255,255,255, 0.8);
   margin-top: 4px;
 }
 
-.container a {
+
+
+.all-copy {
+  -webkit-user-select: initial;  /* Chrome all / Safari all */
+   -moz-user-select: all;     /* Firefox all */
+   -ms-user-select: all;      /* IE 10+ */
+   user-select: all;          /* Likely future */
+ }
+
+
+ .container a {
+   text-decoration: none;
+   color: inherit;
+ }
+
+.container-recommendation a {
   text-decoration: none;
-  color: black;
+  color: inherit;
 }

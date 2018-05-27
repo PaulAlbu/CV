@@ -195,7 +195,7 @@ color: white;
   letter-spacing: 1px;
   position: relative;
   top: 520px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .recommendation h3::first-letter{

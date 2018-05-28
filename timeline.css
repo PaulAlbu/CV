@@ -163,6 +163,21 @@ header {
   display: inline-flex;
   justify-content: flex-end;
   padding-right: 20px;
+  /*START position fixed*/
+  background: no-repeat center center fixed;
+  background-size: cover;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url(body-background77.jpg);
+    position: fixed;
+     z-index: 3;
+     width: inherit;
+  /*END position fixed*/
 }
 
 .fixed {
@@ -201,7 +216,6 @@ header li:hover {
 main {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
-  border-bottom: solid 2px white;
   margin-left: 20px;
   padding: 10px;
 }
@@ -227,7 +241,7 @@ main ul {
 
 .image-background {
   width: 220px;
-  border-bottom: solid 2px white;
+  margin-top: 65px;
 }
 
   main h1{
@@ -241,17 +255,16 @@ main ul {
 .image {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
-  height: inherit;
   width: 200px;
   border-radius: 50%;
   margin-top: 20px;
   margin-left: 10px;
+  position: relative;
 }
 
 .icon-bar {
   grid-row: 2 / 3;
   grid-column: 3 / 4;
-  border-bottom: solid 2px white;
   justify-self: flex-end;
   width: 350px;
   padding-left: 20px;
@@ -295,6 +308,7 @@ main ul {
   grid-row: 3 / 4;
   grid-column: 1 / 4;
   border-bottom: 2px solid white;
+  border-top: solid 2px white;
 }
 
 

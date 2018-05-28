@@ -33,8 +33,23 @@ header {
   display: inline-flex;
   justify-content: flex-end;
   padding-right: 20px;
-  position: relative; /*Changed header position to move left*/
+/*Changed header position to move left*/
   right: 40px; /*Changed header position to move left*/
+  /*START position fixed*/
+  position: fixed;
+  background: no-repeat center center fixed;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(body-background56.jpg);
+  background-size: cover;
+  z-index: 4;
+  width: inherit;
+  /*END position fixed*/
 }
 
 header li {
@@ -66,6 +81,7 @@ header a {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+
 }
 
 .paul-image {
@@ -73,6 +89,24 @@ header a {
   grid-row: 2 / 3;
   display: inline-flex;
   justify-content: center;
+  /*START position fixed*/
+  position: fixed;
+  background: no-repeat center center fixed;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(body-background56.jpg);
+  background-size: cover;
+  z-index: 4;
+  width: inherit;
+  top: 50px;
+  padding: 20px;
+  margin-left: -40px;
+  /*END position fixed*/
 }
 
 .paul {

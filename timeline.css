@@ -176,7 +176,10 @@ header {
     url(body-background77.jpg);
     position: fixed;
      z-index: 3;
-     width: inherit;
+     width: 100%;
+     max-width: 1200px;
+
+
   /*END position fixed*/
 }
 

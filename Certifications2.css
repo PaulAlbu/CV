@@ -32,7 +32,8 @@ header {
   grid-column: 1 / 5;
   display: inline-flex;
   justify-content: flex-end;
-  padding-right: 20px;
+  margin-right: -50px;
+  padding-right: 40px;
 /*Changed header position to move left*/
   right: 40px; /*Changed header position to move left*/
   /*START position fixed*/
@@ -48,7 +49,9 @@ header {
     url(body-background56.jpg);
   background-size: cover;
   z-index: 4;
-  width: inherit;
+  width: 100%;
+  max-width: 100%;
+  min-width: 450px;
   /*END position fixed*/
 }
 
@@ -106,6 +109,7 @@ header a {
   top: 50px;
   padding: 20px;
   margin-left: -40px;
+
   /*END position fixed*/
 }
 

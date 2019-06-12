@@ -23,8 +23,8 @@ body {
    display: grid;
    grid-template-columns: 150px 300px 300px 200px;
    grid-template-rows: 50px 150px 100px 70px 1fr;
-   padding-top: 25px;
    position: relative;
+   padding-left: 40%;
 }
 
 header {
@@ -51,7 +51,8 @@ header {
   z-index: 4;
   width: 100%;
   max-width: 100%;
-  min-width: 450px;
+  min-width: 550px;
+  height: 230px;
   /*END position fixed*/
 }
 
@@ -94,17 +95,7 @@ header a {
   justify-content: center;
   /*START position fixed*/
   position: fixed;
-  background: no-repeat center center fixed;
-  background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.0),
-      rgba(0, 0, 0, 0.0),
-      rgba(0, 0, 0, 0.3)
-    ),
-    url(body-background56.jpg);
-  background-size: cover;
-  z-index: 4;
+  z-index: 5;
   width: inherit;
   top: 50px;
   padding: 20px;
@@ -119,7 +110,7 @@ header a {
   grid-row: 3 / 4;
   justify-items: center;
   align-self:start;
-  margin-top: -10px;
+  margin-top: 20px;
 }
 
 .paul h3 {

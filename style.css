@@ -11,28 +11,16 @@ body {
 
 /*START Darken brackground*/
 .darken {
-  background: no-repeat center center fixed;
+  background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
   background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
-    url(body-background38.jpg);
-    z-index: -2;
+    url(Backgrounds/body-background78.jpg);
+    z-index: -4;
 }
 
-.darken-elements {
-  background-image:   linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2),
-      rgba(192,192,192,0.6)
-      );
-}
 
-/*END Darken brackground*/
 body {
   width: 800px;
   height: 770px;/*Check 1: if the width must be specified*/
@@ -40,8 +28,10 @@ body {
   grid-template-columns: 200px 10fr 1fr;
   grid-template-rows: 50px 250px 200 270px;
   padding-top: 25px;
-
   font-family: 'Lora', serif;
+
+
+
 }
 
 header {
@@ -49,7 +39,25 @@ header {
   grid-column: 1 / 4;
   display: inline-flex;
   justify-content: flex-end;
-  padding-right: 20px;
+  justify-content: flex-end;
+  margin-right: -50px;
+  padding-right: 40px;
+  padding-top: -40px;
+  /*Changed header position to move left*/
+  right: 40px;
+  position: fixed;
+  background: no-repeat center center fixed;
+  background-image:
+
+    url(Backgrounds/body-background78.jpg);
+  background-size: cover;
+  z-index: 4;
+  width: 100%;
+  max-width: 100%;
+  min-width: 550px;
+  height: 50px;
+  margin-top: -30px;
+
 }
 
 header li {
@@ -102,6 +110,8 @@ main ul {
 }
 
 .image-background {
+  grid-row: 2 / 3;
+  grid-column: 1 / 4;
   width: 220px;
   border-bottom: solid 2px white;
 }

@@ -12,7 +12,7 @@
         rgba(0, 0, 0, 0.1),
         rgba(0, 0, 0, 0.1)
       ),
-      url(body-background77.jpg);
+      url(body-background80.jpg);
 
       position: fixed;
        z-index: -2;
@@ -162,10 +162,13 @@ header {
   grid-column: 1 / 4;
   display: inline-flex;
   justify-content: flex-end;
-  padding-right: 20px;
+  margin-right: -50px;
+  padding-right: 40px;
+  /*Changed header position to move left*/
+  right: 40px; /*Changed header position to move left*/
   /*START position fixed*/
+  position: fixed;
   background: no-repeat center center fixed;
-  background-size: cover;
   background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.3),
@@ -173,12 +176,13 @@ header {
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.1)
     ),
-    url(body-background77.jpg);
-    position: fixed;
-     z-index: 3;
-     width: 100%;
-     max-width: 1200px;
-     min-width: 550px;
+    url(body-background80.jpg);
+    background-size: cover;
+    z-index: 4;
+    width: 100%;
+    max-width: 100%;
+    min-width: 550px;
+  
 
 
   /*END position fixed*/

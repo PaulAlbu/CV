@@ -48,7 +48,12 @@ header {
   position: fixed;
   background: no-repeat center center fixed;
   background-image:
-
+  linear-gradient(
+    rgba(0, 0, 0, 0.0),
+    rgba(0, 0, 0, 0.0),
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1)
+  ),
     url(Backgrounds/body-background78.jpg);
   background-size: cover;
   z-index: 4;
@@ -215,6 +220,7 @@ main ul {
   border-radius: inherit;
 }
 
+
 .soft li {
       display: inline-block;
       margin: 0;
@@ -241,22 +247,6 @@ header a {
   text-align: justify;
 }
 
-.blank-canvas {
-display: grid;
-z-index: -1;
-margin-left: auto;
-margin-right: auto;
-left: 0;
-right: 0;
-top: 90px;
-position: absolute;
-background-color: white;
-border-radius: 3px;
-width: 830px;
-height: 850px;
-box-shadow: 10px 7px 4px black;
-
-}
 
 /* End: Skill bars */
 

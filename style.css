@@ -16,7 +16,7 @@ body {
   background-attachment: scroll;
   background-position: center;
   background-image:
-    url(Backgrounds/body-background78.jpg);
+    url(Backgrounds/body-background82.jpg);
     z-index: -4;
 }
 
@@ -54,7 +54,7 @@ header {
     rgba(0, 0, 0, 0.1),
     rgba(0, 0, 0, 0.1)
   ),
-    url(Backgrounds/body-background78.jpg);
+    url(Backgrounds/body-background82.jpg);
   background-size: cover;
   z-index: 4;
   width: 100%;

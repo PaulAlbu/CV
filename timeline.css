@@ -12,7 +12,7 @@
         rgba(0, 0, 0, 0.1),
         rgba(0, 0, 0, 0.1)
       ),
-      url(body-background80.jpg);
+      url(Backgrounds/body-background83.jpg);
 
       position: fixed;
        z-index: -2;
@@ -176,13 +176,13 @@ header {
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.1)
     ),
-    url(body-background80.jpg);
+    url(Backgrounds/body-background83.jpg);
     background-size: cover;
     z-index: 4;
     width: 100%;
     max-width: 100%;
     min-width: 550px;
-  
+
 
 
   /*END position fixed*/

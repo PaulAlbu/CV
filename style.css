@@ -339,13 +339,16 @@ width: 175px;
 }
 
 .container {
-  margin-bottom: 41%;
+  margin-bottom: 27%;
 }
 
 .correct-mobile-ver {
-margin-top: -11%;
+margin-top: -12%;
 }
 
+li:nth-child(9){
+    display:none;
+}
 .overlay {
 display: none;
 }

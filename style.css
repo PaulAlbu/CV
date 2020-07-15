@@ -35,33 +35,32 @@ body {
   grid-template-rows: 50px 250px 200 270px;
   padding-top: 25px;
   font-family: 'Lora', serif;
+
 }
 
-.header {
+header {
   grid-row: 1 / 2;
   grid-column: 1 / 4;
   display: inline-flex;
   justify-content: flex-end;
-  justify-content: flex-end;
-  margin-right: -50px;
+  margin-right: -40px;
   padding-right: 40px;
   padding-top: -40px;
   /*Changed header position to move left*/
   right: 40px;
   position: fixed;
-  background: no-repeat center center fixed;
-
-  background-size: cover;
+  padding-left: 40px;
   z-index: 4;
   width: 100%;
   max-width: 100%;
-  min-width: 550px;
+  min-width: 850px;
   height: 50px;
   margin-top: -30px;
+
 }
 
 .active {
-  background-color: red;
+   background-color: #0077B5;
  }
 header li {
 display: inline-block;
@@ -232,10 +231,11 @@ main ul {
 .skills-percentage {
     text-align: right; /* Right-align text */
     padding-right: 20px; /* Add some right padding */
+
     line-height: inherit;; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
     color: white; /* White text color */
     height: inherit;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .microsoft-office {
@@ -286,38 +286,35 @@ header a {
 
 
 /* Mobile Version */
-
+/*
 @media only screen and (max-width: 415px) {
-  body{
-    width: 95%;
+  body {
+    width:100%;
 }
 
+.about-me {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .darken {
-
-background-color: rgb(208,208,208);
+width: 100%;
+background-color: rgb(232,232,232);
+background-image: none;
 background-image:
-linear-gradient(
-  rgba(0, 0, 0, 0.0),
-  rgba(0, 0, 0, 0.0),
-  rgba(0, 0, 0, 0.0),
-  rgba(0, 0, 0, 0.1)
-),
-  url(Backgrounds/body-background5059.jpg);
+  linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.0),
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.3));
 
 }
-
+}
 
 header {
-  width: 375px;
-  max-width: 100%;
-  min-width: 100%;
+  width: 320px;
   margin-right: 0px;
   right: 0px;
  }
-
-header ul {
-  width: 100%;
-}
 
 header li {
 font-size: 14px;
@@ -344,11 +341,16 @@ width: 175px;
 }
 
 .container {
-  margin-bottom: 39%;
+  margin-bottom: 41%;
 }
 
 .correct-mobile-ver {
-margin-top: -10%;
+margin-top: -11%;
+}
+
+.overlay {
+display: none;
 }
 
 }
+*/

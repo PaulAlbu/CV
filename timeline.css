@@ -162,7 +162,7 @@ header {
   grid-column: 1 / 4;
   display: inline-flex;
   justify-content: flex-end;
-  margin-right: -50px;
+  margin-right: -40px;
   padding-right: 40px;
   /*Changed header position to move left*/
   right: 40px; /*Changed header position to move left*/
@@ -333,4 +333,8 @@ header a {
 
 .about-me p {
 text-align: justify;
+}
+
+.overlay {
+  display: none;
 }

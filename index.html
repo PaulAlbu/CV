@@ -3,21 +3,24 @@
 <head>
   <meta charset="utf-8">
   <title>C.V. Paul Albu</title>
+
   <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 </head>
 
 
 <body class="darken">
+
   <!--START Insert Blank canvas-->
 
   <!--END Insert Blank canvas-->
 
   <!-- Header section -->
-  <header>
+  <header class="header">
     <ul>
-      <li><a href="./index.html">Home</a></li>
+      <li class="display-none-if"><a href="./index.html">Home</a></li>
       <li><a href="./timeline.html">Work Experience</a></li>
       <li><a href="./Certifications2.html"> Certifications</a></li>
       <li><a href="CV-Paul-Albu.pdf" target="_blank" download>CV</a></li>
@@ -65,7 +68,7 @@
       <div class="container">
         <div class="skills-percentage sap">60%</div>
       </div>
-      <p>CRM (Sales Force)</p>
+      <p class="correct-mobile-ver">CRM (Sales Force)</p>
       <div class="container">
         <div class="skills-percentage crm">70%</div>
       </div>
@@ -119,6 +122,17 @@
   </div>
 -->
 
+<script>
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 50) {
+        $(".header").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".header").removeClass("active");
+    }
+});
+
+</script>
 </body>
 
 

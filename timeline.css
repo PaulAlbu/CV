@@ -317,14 +317,10 @@ main ul {
   grid-column: 1 / 4;
   border-bottom: 2px solid white;
   border-top: solid 2px white;
+
 }
 
 
-.about-me {
-  grid-row: 3 / 4;
-  grid-column: 1 / 4;
-  border-bottom: 2px solid white;
-}
 
 header a {
   text-decoration: none;
@@ -337,4 +333,103 @@ text-align: justify;
 
 .overlay {
   display: none;
+}
+
+/* Mobile Version */
+@media  (max-width: 415px) {
+
+
+  body {
+    width:100%;
+  }
+  .website-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    background-color: rgb(232,232,232);
+    background-image: none;
+    background-image:
+      linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.0),
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.3));
+        z-index: -4;
+  }
+
+  .image-background {
+    display:;
+  }
+
+  main {
+    display:
+  }
+
+.icon-bar {
+  display: none;
+}
+
+.about-me {
+  width: 360px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+.timeline-timeline {
+    position: relative;
+    margin: 0;
+    grid-column: 1 / 4;
+    margin-top: 40px;
+    margin-left: -96%;
+}
+
+.left-timeline {
+  left: 56%;
+}
+
+.left-timeline::before {
+    content: "";
+    height: 0;
+    position: absolute;
+    top: 10px;
+    width: 0px;
+    z-index: 1;
+    left: -30px;
+    border: medium solid white;
+    border-width: 0px 30px 25px 0;
+    border-color: transparent #0077B5 transparent transparent;
+}
+
+/* Fix the circle for container-timelines on the right side */
+.left-timeline::after {
+    left: -86px;
+}
+.container-timeline {
+  width: 30%;
+}
+
+h4 {
+  font-size:14px;
+}
+
+
+.header {
+  min-width: 100%;
+  padding-right:60%;
+  background-image: none;
+  background-color: transparent;
+  z-index: 100;
+}
+.display-none-if {
+  display: none;
+}
+
+header li {
+font-size: 14px;
+}
+.active {
+   background-color: #0077B5;
+}
 }

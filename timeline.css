@@ -420,7 +420,7 @@ h4 {
 
 .header {
   min-width: 100%;
-  padding-right:60%;
+
   background-image: none;
   background-color: transparent;
   z-index: 100;
@@ -434,9 +434,6 @@ main h2 {
 }
 
 header {
-
-  margin-right: 0px;
-  right: 0px;
   margin-top: -10px;
   height: 45px;
 }

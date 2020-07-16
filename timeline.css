@@ -363,7 +363,7 @@ text-align: justify;
   }
 
   main {
-    display:
+    display:;
   }
 
 .icon-bar {
@@ -373,7 +373,6 @@ text-align: justify;
 .about-me {
   width: 360px;
   padding-left: 5px;
-  padding-right: 5px;
 }
 
 
@@ -382,7 +381,7 @@ text-align: justify;
     margin: 0;
     grid-column: 1 / 4;
     margin-top: 40px;
-    margin-left: -96%;
+    margin-left: -98%;
 }
 
 .left-timeline {
@@ -407,13 +406,17 @@ text-align: justify;
     left: -86px;
 }
 .container-timeline {
-  width: 30%;
+  width: 31%;
 }
+
+.content-timeline {
+    padding: 25px 30px;
+   }
 
 h4 {
-  font-size:14px;
+  font-size:15px;
+  padding-left: 10px;
 }
-
 
 .header {
   min-width: 100%;
@@ -426,10 +429,27 @@ h4 {
   display: none;
 }
 
+main h2 {
+  padding-top: 80%;
+}
+
+header {
+
+  margin-right: 0px;
+  right: 0px;
+  margin-top: -10px;
+  height: 45px;
+}
+
 header li {
 font-size: 14px;
 }
 .active {
    background-color: #0077B5;
 }
+.left-if {
+margin-left: -40px;
+}
+
+
 }

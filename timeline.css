@@ -340,7 +340,8 @@ text-align: justify;
 
 
   body {
-    width:100%;
+    width:99%;
+      grid-template-columns: 4% 67% 29%;
   }
   .website-background {
     background-repeat: no-repeat;
@@ -362,17 +363,26 @@ text-align: justify;
     display:;
   }
 
-  main {
-    display:;
+
+  .image {
+    width: 77%;
   }
+
+main {
+  padding-left: 70%;
+  margin-top: 7%;
+}
+
+
 
 .icon-bar {
   display: none;
 }
 
 .about-me {
-  width: 360px;
-  padding-left: 5px;
+  width: 98%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
@@ -381,11 +391,11 @@ text-align: justify;
     margin: 0;
     grid-column: 1 / 4;
     margin-top: 40px;
-    margin-left: -98%;
+    margin-left: -140%;
 }
 
 .left-timeline {
-  left: 56%;
+  left: 57.2%;
 }
 
 .left-timeline::before {
@@ -406,7 +416,7 @@ text-align: justify;
     left: -86px;
 }
 .container-timeline {
-  width: 31%;
+  width: 41%;
 }
 
 .content-timeline {
@@ -420,11 +430,13 @@ h4 {
 
 .header {
   min-width: 100%;
-  padding-right:25%;
+  padding-right: 20%;
   background-image: none;
   background-color: transparent;
   z-index: 100;
 }
+
+
 .display-none-if {
   display: none;
 }
@@ -447,6 +459,5 @@ font-size: 14px;
 .left-if {
 margin-left: -30px;
 }
-
 
 }

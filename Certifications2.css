@@ -335,7 +335,7 @@ color: white;
 
 
 /* Mobile Version */
-@media (max-width: 415px) {
+@media (max-width: 500px) {
 
   html {
     background: none;
@@ -419,7 +419,6 @@ color: white;
 
   .active {
      background-color: #0077B5;
-
   }
 
 }

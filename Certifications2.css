@@ -335,7 +335,7 @@ color: white;
 
 
 /* Mobile Version */
-@media  (max-width: 415px) {
+@media only screen and (max-width: 415px) {
 
   html {
     background: none;

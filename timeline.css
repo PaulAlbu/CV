@@ -335,6 +335,10 @@ text-align: justify;
   display: none;
 }
 
+.display-none-if-max {
+  display: none;
+}
+
 /* Mobile Version */
 @media  (max-width: 415px) {
 
@@ -448,6 +452,10 @@ main h2 {
 header {
   margin-top: -10px;
   height: 45px;
+}
+
+main ul {
+  display: inline-flex;
 }
 
 header li {

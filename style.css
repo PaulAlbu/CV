@@ -314,6 +314,11 @@ header {
   right: 0px;
  }
 
+ .image {
+   width: 77%;
+   margin-bottom:  10px;
+ }
+
 header li {
 font-size: 14px;
 }
@@ -339,7 +344,7 @@ width: 175px;
 }
 
 .container {
-  margin-bottom: 27%;
+  margin-bottom: 26%;
 }
 
 .correct-mobile-ver {
@@ -351,6 +356,10 @@ li:nth-child(9){
 }
 .overlay {
 display: none;
+}
+
+.skills {
+  margin-left: 10px;
 }
 
 }

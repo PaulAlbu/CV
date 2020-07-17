@@ -331,3 +331,105 @@ color: white;
   text-decoration: none;
   color: inherit;
 }
+
+
+
+/* Mobile Version */
+@media  (max-width: 415px) {
+
+  html {
+    background: none;
+    background-image:
+      linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.3));
+  }
+  body {
+      width: 100%;
+      height: auto;
+      margin-right: 0%;
+      grid-template-columns: 6.25% 37.5% 37.5% 25%;
+      padding-left: 0%;
+  }
+
+  header {
+    width: 100%;
+    min-width: 100%;
+    background-image: none;
+    height: auto;
+    right: 0px;
+    left: 0px;
+    margin-right: 0px;
+    z-index: 100;
+    height: auto;
+    text-align: center;
+
+  }
+
+  header ul {
+  width: 100%;
+  list-style: none;
+
+  }
+  header ul li {
+    display: inline;
+
+  }
+
+  .paul-image {
+    display: none;
+  }
+
+  .paul {
+    display:none;
+  }
+
+  .certifications {
+    grid-column: 1/4;
+    margin-left: 14px;
+    margin-top: -85%;
+    z-index: 600;
+  }
+
+ .container {
+   grid-column: 1/4;
+   margin-left: 32px;
+   width: 140%;
+   margin-top: -85%;
+ }
+
+ .container ul li div {
+   width: 100%;
+ }
+
+
+ .container-recommendation {
+   grid-column: 1/4;
+   margin-left: 32px;
+   margin-top: 60px;
+   width: 100%;
+ }
+
+ .recommendation {
+   grid-column: 1/4;
+  margin-left:  16px;
+  width: 150%;
+  top: 90%;
+ }
+
+ .container-recommendation ul li div {
+   width: 145%;
+ }
+
+  .display-none-if {
+    display: none;
+  }
+
+  .active {
+     background-color: #0077B5;
+
+  }
+
+}

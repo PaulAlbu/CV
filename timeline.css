@@ -342,6 +342,9 @@ text-align: justify;
 /* Mobile Version */
 @media (max-width: 415px) {
 
+  .display-none-if-max {
+    display: inline-flex;
+  }
 
   body {
     width:99%;

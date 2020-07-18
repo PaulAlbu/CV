@@ -140,7 +140,7 @@ main ul {
 .overlay {
   margin-top: -200px;
   margin-left: 10px;
-  background-color: #0077B5;;
+  background-color: rgba(0, 119, 181, 0.4);
   overflow: hidden;
   border-radius: 50%;
   width: 202px;
@@ -162,7 +162,7 @@ main ul {
 
 .text {
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -170,7 +170,7 @@ main ul {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-   box-shadow: 8px .6rem 1rem rgba(0,0,0,.5);
+
 
 }
 

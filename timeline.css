@@ -437,7 +437,6 @@ h4 {
 
 .header {
   min-width: 100%;
-  padding-right: 20%;
   background-image: none;
   background-color: transparent;
   z-index: 100;
@@ -453,17 +452,23 @@ main h2 {
 }
 
 header {
-  margin-top: -10px;
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  display: inline;
   height: 45px;
+  margin-top: -10px;
+}
+
+header li {
+  font-size: 14px;
 }
 
 main ul {
   display: inline-flex;
 }
 
-header li {
-font-size: 14px;
-}
+
 .active {
    background-color: #0077B5;
 }

@@ -238,20 +238,20 @@ main ul {
     font-size: 13px;
 }
 
-.microsoft-office {
-  width: 80%;
+.project-management {
+  width: 90%;
   background-color: #0077B5;
   border-radius: inherit;
 }
 
 .crm {
-  width: 70%;
+  width: 90%;
   background-color: #0077B5;
   border-radius: inherit;
 }
 
 .sap {
-  width: 60%;
+  width: 75%;
   background-color: #0077B5;
   border-radius: inherit;
 }
@@ -344,11 +344,11 @@ width: 175px;
 }
 
 .container {
-  margin-bottom: 26%;
+  margin-bottom: 14%;
 }
 
 .correct-mobile-ver {
-margin-top: -12%;
+margin-top: 26%;
 }
 
 li:nth-child(9){

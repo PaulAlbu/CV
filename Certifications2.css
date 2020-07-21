@@ -224,6 +224,7 @@ color: white;
   letter-spacing: 1px;
   position: relative;
   top: 95%;
+  height: 50%;
 }
 
 .recommendation h3::first-letter{
@@ -408,6 +409,7 @@ color: white;
   margin-left:  16px;
   width: 150%;
   top: 90%;
+  height: 60%;
  }
 
  .container-recommendation ul li div {

@@ -287,6 +287,13 @@ header a {
 
 /* Mobile Version */
 
+.small-edit {
+  font-weight: bolder;
+  color: #0077B5;
+  font-style: normal;
+  font-size: 18px;
+}
+
 @media  (max-width: 500px) {
   body {
     width:100%;

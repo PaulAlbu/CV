@@ -223,7 +223,7 @@ color: white;
   text-transform: uppercase;
   letter-spacing: 1px;
   position: relative;
-  top: 520px;
+  top: 95%;
 }
 
 .recommendation h3::first-letter{

@@ -11,10 +11,13 @@ body {
 
 /*START Darken brackground*/
 .darken {
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
-  background-position: center;
+  background-position: center; ---> This are old values, where background scolled; */
+
+  background: no-repeat center center fixed;
+  background-size: cover;
   background-image:
   linear-gradient(
     rgba(0, 0, 0, 0.1),
@@ -24,6 +27,7 @@ body {
   ),
     url(Backgrounds/body-background84.jpg);
     z-index: -4;
+
 }
 
 
@@ -205,8 +209,6 @@ main ul {
   display: grid;
   width: inherit;
   grid-template-columns: 1fr 1fr;
-
-
 }
 
 .hard {

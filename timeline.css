@@ -373,11 +373,18 @@ text-align: justify;
 
   .image {
     width: 77%;
+    margin-left:90%;
+
   }
 
 main {
-  padding-left: 70%;
-  margin-top: 7%;
+  margin-left: -5%;
+  margin-top: 30%;
+  margin-right: 25%;
+}
+
+main h2 {
+  font-size: 20px;
 }
 
 
@@ -447,9 +454,7 @@ h4 {
   display: none;
 }
 
-main h2 {
-  padding-top: 80%;
-}
+
 
 header {
   width: 100%;
